@@ -442,7 +442,7 @@
         "$value": "#083344"
       }
     },
-    "sky": {
+    "primary": {
       "50": {
         "$type": "color",
         "$value": "#f0f9ff"
@@ -1045,47 +1045,47 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "{sky.50}"
+        "$value": "{primary.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{sky.100}"
+        "$value": "{primary.100}"
       },
       "200": {
         "$type": "color",
-        "$value": "{sky.200}"
+        "$value": "{primary.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{sky.300}"
+        "$value": "{primary.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{sky.400}"
+        "$value": "{primary.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{sky.500}"
+        "$value": "{primary.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{sky.600}"
+        "$value": "{primary.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{sky.700}"
+        "$value": "{primary.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{sky.800}"
+        "$value": "{primary.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{sky.900}"
+        "$value": "{primary.900}"
       },
       "950": {
         "$type": "color",
-        "$value": "{sky.950}"
+        "$value": "{primary.950}"
       }
     },
     "anchor": {
@@ -14685,17 +14685,17 @@
       "info": {
         "background": {
           "$type": "color",
-          "$value": "{sky.500}"
+          "$value": "{primary.500}"
         },
         "hover": {
           "background": {
             "$type": "color",
-            "$value": "{sky.600}"
+            "$value": "{primary.600}"
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.600}"
+              "$value": "{primary.600}"
             }
           },
           "color": {
@@ -14706,12 +14706,12 @@
         "active": {
           "background": {
             "$type": "color",
-            "$value": "{sky.700}"
+            "$value": "{primary.700}"
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.700}"
+              "$value": "{primary.700}"
             }
           },
           "color": {
@@ -14722,7 +14722,7 @@
         "border": {
           "color": {
             "$type": "color",
-            "$value": "{sky.500}"
+            "$value": "{primary.500}"
           }
         },
         "color": {
@@ -14733,7 +14733,7 @@
           "ring": {
             "color": {
               "$type": "color",
-              "$value": "{sky.500}"
+              "$value": "{primary.500}"
             },
             "shadow": {
               "$type": "boxShadow",
@@ -15161,24 +15161,24 @@
           "hover": {
             "background": {
               "$type": "color",
-              "$value": "{sky.50}"
+              "$value": "{primary.50}"
             }
           },
           "active": {
             "background": {
               "$type": "color",
-              "$value": "{sky.100}"
+              "$value": "{primary.100}"
             }
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.200}"
+              "$value": "{primary.200}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.500}"
+            "$value": "{primary.500}"
           }
         },
         "warn": {
@@ -15361,18 +15361,18 @@
           "hover": {
             "background": {
               "$type": "color",
-              "$value": "{sky.50}"
+              "$value": "{primary.50}"
             }
           },
           "active": {
             "background": {
               "$type": "color",
-              "$value": "{sky.100}"
+              "$value": "{primary.100}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.500}"
+            "$value": "{primary.500}"
           }
         },
         "warn": {
@@ -15977,7 +15977,7 @@
       "info": {
         "background": {
           "$type": "color",
-          "$value": "{sky.500}"
+          "$value": "{primary.500}"
         },
         "color": {
           "$type": "color",
@@ -16073,11 +16073,11 @@
       "info": {
         "background": {
           "$type": "color",
-          "$value": "{sky.100}"
+          "$value": "{primary.100}"
         },
         "color": {
           "$type": "color",
-          "$value": "{sky.700}"
+          "$value": "{primary.700}"
         }
       },
       "warn": {
@@ -18228,55 +18228,55 @@
       "info": {
         "background": {
           "$type": "color",
-          "$value": "{sky.400}"
+          "$value": "{primary.400}"
         },
         "hover": {
           "background": {
             "$type": "color",
-            "$value": "{sky.300}"
+            "$value": "{primary.300}"
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.300}"
+              "$value": "{primary.300}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.950}"
+            "$value": "{primary.950}"
           }
         },
         "active": {
           "background": {
             "$type": "color",
-            "$value": "{sky.200}"
+            "$value": "{primary.200}"
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.200}"
+              "$value": "{primary.200}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.950}"
+            "$value": "{primary.950}"
           }
         },
         "border": {
           "color": {
             "$type": "color",
-            "$value": "{sky.400}"
+            "$value": "{primary.400}"
           }
         },
         "color": {
           "$type": "color",
-          "$value": "{sky.950}"
+          "$value": "{primary.950}"
         },
         "focus": {
           "ring": {
             "color": {
               "$type": "color",
-              "$value": "{sky.400}"
+              "$value": "{primary.400}"
             },
             "shadow": {
               "$type": "boxShadow",
@@ -18749,7 +18749,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{sky.400}"
+              "$value": "{primary.400}"
             }
           },
           "active": {
@@ -18764,18 +18764,18 @@
                 }
               },
               "$type": "color",
-              "$value": "{sky.400}"
+              "$value": "{primary.400}"
             }
           },
           "border": {
             "color": {
               "$type": "color",
-              "$value": "{sky.700}"
+              "$value": "{primary.700}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.400}"
+            "$value": "{primary.400}"
           }
         },
         "warn": {
@@ -19057,7 +19057,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{sky.400}"
+              "$value": "{primary.400}"
             }
           },
           "active": {
@@ -19072,12 +19072,12 @@
                 }
               },
               "$type": "color",
-              "$value": "{sky.400}"
+              "$value": "{primary.400}"
             }
           },
           "color": {
             "$type": "color",
-            "$value": "{sky.400}"
+            "$value": "{primary.400}"
           }
         },
         "warn": {
@@ -19736,11 +19736,11 @@
       "info": {
         "background": {
           "$type": "color",
-          "$value": "{sky.400}"
+          "$value": "{primary.400}"
         },
         "color": {
           "$type": "color",
-          "$value": "{sky.950}"
+          "$value": "{primary.950}"
         }
       },
       "warn": {
@@ -19859,11 +19859,11 @@
             }
           },
           "$type": "color",
-          "$value": "{sky.500}"
+          "$value": "{primary.500}"
         },
         "color": {
           "$type": "color",
-          "$value": "{sky.300}"
+          "$value": "{primary.300}"
         }
       },
       "warn": {
@@ -22584,17 +22584,17 @@
         "stone.800": "508f8212be38dac50fe7c4660ecefa479cac9327",
         "stone.900": "88263f24e7d05c3fcf652fa7f57fda674f1b13ee",
         "stone.950": "13ea9027f5083330cd580910b737b4a8949a4c5a",
-        "primary.50": "cd506d7f98495fc525b6e08c32fffe7b27aefbe9",
-        "primary.100": "b673a9571cd98e6a2de0de092c63d053811a88a1",
-        "primary.200": "48598797a68728cba90f772b33858f0e5d74ad45",
-        "primary.300": "aab1f5d7e64603e9254d0450bbeb345dd73d2915",
-        "primary.400": "f7c2a967b325571b4fff73bca11e1033514263df",
-        "primary.500": "5d68b09414a24112fd5b9db9ae23e3778769fcb1",
-        "primary.600": "0176b6a7994de147ea98fc7ca0c4f6e0f35114d9",
-        "primary.700": "65fb387197c63d81ae93c134cf2ae4b9b6f09ede",
-        "primary.800": "6b80d442f4dceea7807f8ea44782bb8894a79772",
-        "primary.900": "4c52f113328a01fe127f5922b70ad56667773cc0",
-        "primary.950": "7c731301a4e9b4fe37148544075a1f3f7d8fc875",
+        "primary.50": "1dd752a1888a9fc35c279175d38ec3e8d880c041",
+        "primary.100": "fca5421bb5a63502067ae9db1783672fc5f69be2",
+        "primary.200": "5eda0085e59b4860e858ac592503d143d5541ed0",
+        "primary.300": "98ed2dca0ef1bf8f2397b3ebcbde0e021d297f5c",
+        "primary.400": "fd148492e7e6838c9659f51c9495b9b9422a226a",
+        "primary.500": "5f768701674489d93c7b06909016670e052d677f",
+        "primary.600": "8b59ac8e79de3e08d0d7c623842928aba1eaaef0",
+        "primary.700": "8ca676d5c27230256dc68eccb6da97d3d9c81fd0",
+        "primary.800": "da8a50a5c2cecfe5dd6d1834ec9d111bbbf1ee94",
+        "primary.900": "7c114e905e0c1296d4a004b9abf26d387f5c616f",
+        "primary.950": "7084fed6ca5fcfb4ba79410ec29d3c2110556a26",
         "anchor.gutter": "d10b0d58e3e2e29bf756a8af8071f4d6335e2fee",
         "icon.size": "f331404c489d4e2789fa84a00db65d557d1b8293",
         "disabled.opacity": "484b5c8bb7df10e05ea35cbb04ce83145985f417",
@@ -24044,18 +24044,7 @@
         "progressspinner.color.one": "ff8e1e254d1959e05d15af408a0c22a2ab845e12",
         "progressspinner.color.two": "1f56f31a202b8e5534a1600725e0f7a0fd8eb145",
         "progressspinner.color.three": "2a84dd5cc86e276f215b1c8d5c409183e7915621",
-        "progressspinner.color.four": "c745dae17d337db37fddb237b971b01fe493eaa9",
-        "sky.50": "1dd752a1888a9fc35c279175d38ec3e8d880c041",
-        "sky.100": "fca5421bb5a63502067ae9db1783672fc5f69be2",
-        "sky.200": "5eda0085e59b4860e858ac592503d143d5541ed0",
-        "sky.300": "98ed2dca0ef1bf8f2397b3ebcbde0e021d297f5c",
-        "sky.400": "fd148492e7e6838c9659f51c9495b9b9422a226a",
-        "sky.500": "5f768701674489d93c7b06909016670e052d677f",
-        "sky.600": "8b59ac8e79de3e08d0d7c623842928aba1eaaef0",
-        "sky.700": "8ca676d5c27230256dc68eccb6da97d3d9c81fd0",
-        "sky.800": "da8a50a5c2cecfe5dd6d1834ec9d111bbbf1ee94",
-        "sky.900": "7c114e905e0c1296d4a004b9abf26d387f5c616f",
-        "sky.950": "7084fed6ca5fcfb4ba79410ec29d3c2110556a26"
+        "progressspinner.color.four": "c745dae17d337db37fddb237b971b01fe493eaa9"
       }
     },
     {
@@ -24854,17 +24843,17 @@
         "stone.800": "508f8212be38dac50fe7c4660ecefa479cac9327",
         "stone.900": "88263f24e7d05c3fcf652fa7f57fda674f1b13ee",
         "stone.950": "13ea9027f5083330cd580910b737b4a8949a4c5a",
-        "primary.50": "cd506d7f98495fc525b6e08c32fffe7b27aefbe9",
-        "primary.100": "b673a9571cd98e6a2de0de092c63d053811a88a1",
-        "primary.200": "48598797a68728cba90f772b33858f0e5d74ad45",
-        "primary.300": "aab1f5d7e64603e9254d0450bbeb345dd73d2915",
-        "primary.400": "f7c2a967b325571b4fff73bca11e1033514263df",
-        "primary.500": "5d68b09414a24112fd5b9db9ae23e3778769fcb1",
-        "primary.600": "0176b6a7994de147ea98fc7ca0c4f6e0f35114d9",
-        "primary.700": "65fb387197c63d81ae93c134cf2ae4b9b6f09ede",
-        "primary.800": "6b80d442f4dceea7807f8ea44782bb8894a79772",
-        "primary.900": "4c52f113328a01fe127f5922b70ad56667773cc0",
-        "primary.950": "7c731301a4e9b4fe37148544075a1f3f7d8fc875",
+        "primary.50": "1dd752a1888a9fc35c279175d38ec3e8d880c041",
+        "primary.100": "fca5421bb5a63502067ae9db1783672fc5f69be2",
+        "primary.200": "5eda0085e59b4860e858ac592503d143d5541ed0",
+        "primary.300": "98ed2dca0ef1bf8f2397b3ebcbde0e021d297f5c",
+        "primary.400": "fd148492e7e6838c9659f51c9495b9b9422a226a",
+        "primary.500": "5f768701674489d93c7b06909016670e052d677f",
+        "primary.600": "8b59ac8e79de3e08d0d7c623842928aba1eaaef0",
+        "primary.700": "8ca676d5c27230256dc68eccb6da97d3d9c81fd0",
+        "primary.800": "da8a50a5c2cecfe5dd6d1834ec9d111bbbf1ee94",
+        "primary.900": "7c114e905e0c1296d4a004b9abf26d387f5c616f",
+        "primary.950": "7084fed6ca5fcfb4ba79410ec29d3c2110556a26",
         "anchor.gutter": "d10b0d58e3e2e29bf756a8af8071f4d6335e2fee",
         "icon.size": "f331404c489d4e2789fa84a00db65d557d1b8293",
         "disabled.opacity": "484b5c8bb7df10e05ea35cbb04ce83145985f417",
@@ -26314,18 +26303,7 @@
         "progressspinner.color.one": "ff8e1e254d1959e05d15af408a0c22a2ab845e12",
         "progressspinner.color.two": "1f56f31a202b8e5534a1600725e0f7a0fd8eb145",
         "progressspinner.color.three": "2a84dd5cc86e276f215b1c8d5c409183e7915621",
-        "progressspinner.color.four": "c745dae17d337db37fddb237b971b01fe493eaa9",
-        "sky.50": "1dd752a1888a9fc35c279175d38ec3e8d880c041",
-        "sky.100": "fca5421bb5a63502067ae9db1783672fc5f69be2",
-        "sky.200": "5eda0085e59b4860e858ac592503d143d5541ed0",
-        "sky.300": "98ed2dca0ef1bf8f2397b3ebcbde0e021d297f5c",
-        "sky.400": "fd148492e7e6838c9659f51c9495b9b9422a226a",
-        "sky.500": "5f768701674489d93c7b06909016670e052d677f",
-        "sky.600": "8b59ac8e79de3e08d0d7c623842928aba1eaaef0",
-        "sky.700": "8ca676d5c27230256dc68eccb6da97d3d9c81fd0",
-        "sky.800": "da8a50a5c2cecfe5dd6d1834ec9d111bbbf1ee94",
-        "sky.900": "7c114e905e0c1296d4a004b9abf26d387f5c616f",
-        "sky.950": "7084fed6ca5fcfb4ba79410ec29d3c2110556a26"
+        "progressspinner.color.four": "c745dae17d337db37fddb237b971b01fe493eaa9"
       }
     }
   ],
